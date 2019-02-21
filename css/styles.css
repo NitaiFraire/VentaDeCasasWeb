@@ -90,3 +90,68 @@ h4{
     color: white;
     font-weight: 700
 }
+
+.sobre-nosotros h3{
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.card{
+
+    margin-bottom: 2rem;
+}
+
+.card-precio{
+
+    color: #71b100;
+}
+
+.card-descripcion img{
+
+    margin-right: 10px;
+}
+
+.encuentra{
+
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.encuentra .row{
+
+    height: 22rem;;
+}
+
+.encuentra h3{
+
+    font-size-adjust: 2.2rem;
+    font-weight: 900;
+}
+
+.entrada h3::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: #71b100;
+    margin-top: .5rem;
+}
+
+.meta span{
+
+    color: #e08709;
+}
+
+.btn-success{
+
+    background-color: #71b100;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.btn-success:hover{
+
+    background-color: #629707;
+}
